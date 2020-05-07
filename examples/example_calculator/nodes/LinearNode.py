@@ -30,6 +30,8 @@ class LinearRegressionNode_Fit(SkLearnNode):
         # val2=input_node2.eval({"a":socket2})
 
 
+
+
         if input_node1 is None or input_node2 is None:
             self.markInvalid()
             self.markDescendantsDirty()
